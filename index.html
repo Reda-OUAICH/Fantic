@@ -15,92 +15,92 @@
   <section class="ihaveAll">
 
 
-  <header class="header">
-    <h1 class="headerTitle">FanTic</h1>
-    <nav class="headerNav">
-      <ul class="headerList">
-        <li class="headerListItem"><a class="categorySubMenuLink" href="index.html">Home</a></li>
-        <li id="categoryNav" class="headerListItem">Category <img class="dragCategory" src="img/dragNext.png" alt="">
-          <ul id="categoryItem" class="categoryMenu">
-            <li class="categoryMenu-item"><a id="All"class="categoryMenu-itemLink" href="#home">All</a></li>
-            <li class="categoryMenu-item"><a id="Hetic"class="categoryMenu-itemLink" href="#all">Hetic</a></li>
-            <li class="categoryMenu-item"><a id="Actions"class="categoryMenu-itemLink" href="#hetic">Actions</a></li>
-            <li class="categoryMenu-item"><a id="Animation"class="categoryMenu-itemLink" href="#action">Animation</a></li>
-            <li class="categoryMenu-item"><a id="Comedy"class="categoryMenu-itemLink" href="#animation">Comedy</a></li>
-            <li class="categoryMenu-item"><a id="Horror"class="categoryMenu-itemLink" href="#comedy">Horror</a></li>
-          </ul>
-        </li>
-        <li class="headerListItem"><a class="categorySubMenuLink" href="#about">About</a></li>
-      </ul>
-    </nav>
-    <input class="input" placeholder="Search" type="text">
-  </header>
+    <header class="header">
+      <h1 class="headerTitle">FanTic</h1>
+      <nav class="headerNav">
+        <ul class="headerList">
+          <li class="headerListItem"><a class="categorySubMenuLink" href="index.html">Home</a></li>
+          <li id="categoryNav" class="headerListItem">Category <img class="dragCategory" src="img/dragNext.png" alt="">
+            <ul id="categoryItem" class="categoryMenu">
+              <li class="categoryMenu-item"><a id="All" class="categoryMenu-itemLink" href="#home">All</a></li>
+              <li class="categoryMenu-item"><a id="Hetic" class="categoryMenu-itemLink" href="#all">Hetic</a></li>
+              <li class="categoryMenu-item"><a id="Actions" class="categoryMenu-itemLink" href="#hetic">Actions</a></li>
+              <li class="categoryMenu-item"><a id="Animation" class="categoryMenu-itemLink" href="#action">Animation</a></li>
+              <li class="categoryMenu-item"><a id="Comedy" class="categoryMenu-itemLink" href="#animation">Comedy</a></li>
+              <li class="categoryMenu-item"><a id="Horror" class="categoryMenu-itemLink" href="#comedy">Horror</a></li>
+            </ul>
+          </li>
+          <li class="headerListItem"><a class="categorySubMenuLink" href="#about">About</a></li>
+        </ul>
+      </nav>
+      <input class="input" placeholder="Search" type="text">
+    </header>
 
 
-  <div class="slide__container">
+    <div class="slide__container">
 
-    <div class="slides fade-animation">
+      <div class="slides fade-animation">
 
-      <img class="img__slide slide-1" src="img/banner.png">
-      <div class="text">Red Hood: The Fallen - DC Comic Batman Fan Film</div>
+        <img class="img__slide slide-1" src="img/banner.png">
+        <div class="text">Red Hood: The Fallen - DC Comic Batman Fan Film</div>
+      </div>
+
+      <div class="slides fade-animation">
+        <img class="img__slide slide-2" src="img/DrangonBall.jpg">
+        <div class="text">Dragon Ball vs Naruto. Anime fight</div>
+      </div>
+
+      <div class="slides fade-animation">
+        <img class="img__slide slide-3" src="img/PersonalAnimatedShort.jpg">
+        <div class="text">'Personal Animated Short 【Heat vs Repulsion】自主制作アニメ'</div>
+      </div>
+
+      <a class="car__prev" onclick="plusSlides(-1)">&lt;</a>
+
+      <a class="car__next" onclick="plusSlides(1)">&gt;</a>
+
+
+
+    </div>
+    <br>
+
+    <div id="home" class="dot__container">
+      <div class="most__rating">
+        Most popular fan animation
+      </div>
+
+      <div class="dot__center">
+
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      <div class="rating">
+        Fans's rating : 5/5
+      </div>
+
     </div>
 
-    <div  class="slides fade-animation">
-      <img class="img__slide slide-2" src="img/DrangonBall.jpg">
-      <div class="text">Dragon Ball vs Naruto. Anime fight</div>
+
+    <div class="modal modal_2">
+      <div class="modal_overlay"></div>
+      <div class="modal_content">
+        <h4 class="title__modal">Dragon Ball vs Naruto. Anime fight</h4>
+        <p class="description"><span class="panpan">Description:</span> Pelea brutal con un toque de humor y comedia. La idea surgió jugando al Dragon Ball Xenoverse después de leer el manga de Naruto Shippuden mientras me convertía en Super Saiyan y escuchaba el rap de Naruto
+          y Sasuke. Love Dragon Ball games. <br /> Waiting for Naruto Gaiden to come soon... Mientras disfrutemos de DB Super.</p>
+        <p class="author">Author: Alberto Barberá</p>
+        <p class="year">Year: 2015</p>
+        <p class="duration">Duration: 8:39</p>
+      </div>
     </div>
 
-    <div class="slides fade-animation">
-      <img class="img__slide slide-3" src="img/PersonalAnimatedShort.jpg">
-      <div class="text">'Personal Animated Short 【Heat vs Repulsion】自主制作アニメ'</div>
-    </div>
 
-    <a class="car__prev" onclick="plusSlides(-1)">&lt;</a>
-
-    <a class="car__next" onclick="plusSlides(1)">&gt;</a>
-
-
-
-  </div>
-  <br>
-
-  <div  id="home" class="dot__container">
-    <div class="most__rating">
-      Most popular fan animation
-    </div>
-
-    <div class="dot__center">
-
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-
-    <div class="rating">
-      Fans's rating : 5/5
-    </div>
-
-  </div>
-
-
-  <div class="modal modal_2">
-    <div class="modal_overlay"></div>
-    <div class="modal_content">
-      <h4 class="title__modal">Dragon Ball vs Naruto. Anime fight</h4>
-      <p class="description"><span class="panpan">Description:</span> Pelea brutal con un toque de humor y comedia. La idea surgió jugando al Dragon Ball Xenoverse después de leer el manga de Naruto Shippuden mientras me convertía en Super Saiyan y escuchaba el rap de Naruto
-        y Sasuke. Love Dragon Ball games. <br /> Waiting for Naruto Gaiden to come soon... Mientras disfrutemos de DB Super.</p>
-      <p class="author">Author: Alberto Barberá</p>
-      <p class="year">Year: 2015</p>
-      <p class="duration">Duration: 8:39</p>
-    </div>
-  </div>
-
-
-  <div class="modal modal-1">
-    <div class="modal_overlay"></div>
-    <div class="modal_content">
-      <h4 class="title__modal">Title : Red Hood: The Fallen - DC Comic Batman Fan Film</h4>
-      <p class="description"><span class="panpan">Description: Red Hood: The Fallen is a fan made DC Comic film produced in Perth, Western Australia.</p>
+    <div class="modal modal-1">
+      <div class="modal_overlay"></div>
+      <div class="modal_content">
+        <h4 class="title__modal">Title : Red Hood: The Fallen - DC Comic Batman Fan Film</h4>
+        <p class="description"><span class="panpan">Description: Red Hood: The Fallen is a fan made DC Comic film produced in Perth, Western Australia.</p>
             <p class="author">Author : Toby Bajrovic</p>
             <p class="year">Year: 2015</p>
             <p class="duration">Duration 23:16</p>
@@ -119,112 +119,112 @@
         </div>
     </div>
     <span class="close close-2 close-3">&times;</span>
+  </section>
+  <section class="containerSection">
+    <div class="container">
+      <span class="volume"></span>
+      <div id="progressBarControl"></div>
+    </div>
+  </section>
+
+
+  <section class="ihaveAll2">
+
+    <section class="movies">
+      <div class="moviesContainer allContainer">
+        <h2 id="all" class="moviesTitle">All</h2>
+        <div class="moviesCarousel">
+          <div class="moviesSlider all"></div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="button prev">&lt;</a>
+        <a class="button next">&gt;</a>
+      </div>
+      <div class="moviesContainer heticContainer">
+        <h2 id="hetic" class="moviesTitle">Hétic</h2>
+        <div class="moviesCarousel">
+          <div class="moviesSlider hetic"></div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="button prev">&lt;</a>
+        <a class="button next">&gt;</a>
+      </div>
+      <div class="moviesContainer actionContainer">
+        <h2 id="action" class="moviesTitle">Action</h2>
+        <div class="moviesCarousel">
+          <div class="moviesSlider action"></div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="button prev">&lt;</a>
+        <a class="button next">&gt;</a>
+      </div>
+      <div class="moviesContainer animationContainer">
+        <h2 id="animation" class="moviesTitle">Animation</h2>
+        <div class="moviesCarousel">
+          <div class="moviesSlider animation"></div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="button prev">&lt;</a>
+        <a class="button next">&gt;</a>
+      </div>
+      <div class="moviesContainer comedyContainer">
+        <h2 id="comedy" class="moviesTitle">Comedy</h2>
+        <div class="moviesCarousel">
+          <div class="moviesSlider comedy"></div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="button prev">&lt;</a>
+        <a class="button next">&gt;</a>
+      </div>
+      <div class="moviesContainer horrorContainer">
+        <h2 id="horror" class="moviesTitle">Horror / Thriller</h2>
+        <div class="moviesCarousel">
+          <div class="moviesSlider horror"></div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="button prev">&lt;</a>
+        <a class="button next">&gt;</a>
+      </div>
     </section>
-      <section class="containerSection">
-          <div class="container">
-            <span class="volume"></span>
-            <div id="progressBarControl"></div>
-          </div>
-        </section>
-
-
-        <section class="ihaveAll2">
-
-        <section class="movies">
-          <div class="moviesContainer allContainer">
-            <h2 id="all" class="moviesTitle">All</h2>
-            <div class="moviesCarousel">
-              <div class="moviesSlider all"></div>
-            </div>
-            <!-- Next and previous buttons -->
-            <a class="button prev">&lt;</a>
-            <a class="button next">&gt;</a>
-          </div>
-          <div class="moviesContainer heticContainer">
-            <h2 id="hetic" class="moviesTitle">Hétic</h2>
-            <div class="moviesCarousel">
-              <div class="moviesSlider hetic"></div>
-            </div>
-            <!-- Next and previous buttons -->
-            <a class="button prev">&lt;</a>
-            <a class="button next">&gt;</a>
-          </div>
-          <div class="moviesContainer actionContainer">
-            <h2 id="action" class="moviesTitle">Action</h2>
-            <div class="moviesCarousel">
-              <div class="moviesSlider action"></div>
-            </div>
-            <!-- Next and previous buttons -->
-            <a class="button prev">&lt;</a>
-            <a class="button next">&gt;</a>
-          </div>
-          <div class="moviesContainer animationContainer">
-            <h2 id="animation" class="moviesTitle">Animation</h2>
-            <div class="moviesCarousel">
-              <div class="moviesSlider animation"></div>
-            </div>
-            <!-- Next and previous buttons -->
-            <a class="button prev">&lt;</a>
-            <a class="button next">&gt;</a>
-          </div>
-          <div class="moviesContainer comedyContainer">
-            <h2 id="comedy" class="moviesTitle">Comedy</h2>
-            <div class="moviesCarousel">
-              <div class="moviesSlider comedy"></div>
-            </div>
-            <!-- Next and previous buttons -->
-            <a class="button prev">&lt;</a>
-            <a class="button next">&gt;</a>
-          </div>
-          <div class="moviesContainer horrorContainer">
-            <h2 id="horror" class="moviesTitle">Horror / Thriller</h2>
-            <div class="moviesCarousel">
-              <div class="moviesSlider horror"></div>
-            </div>
-            <!-- Next and previous buttons -->
-            <a class="button prev">&lt;</a>
-            <a class="button next">&gt;</a>
-          </div>
-        </section>
 
 
 
 
 
-        <footer class="footer">
+    <footer class="footer">
 
 
-          <div class="h3__footer">
-            <h3 id="about" class="footerTitle">Copyright &copy; 2017 HÉTIC G15</h3>
-          </div>
+      <div class="h3__footer">
+        <h3 id="about" class="footerTitle">Copyright &copy; 2017 HÉTIC G15</h3>
+      </div>
 
 
-        <div class="made__footer">
-          Projet réalisé par le Groupe 15 dans le cadre de la semaine intensive de JavaScript.
-        </div>
+      <div class="made__footer">
+        Projet réalisé par le Groupe 15 dans le cadre de la semaine intensive de JavaScript.
+      </div>
 
-        <div class="footer__contact">
-          Contact : 27 Bis Rue du Progrès, 93100 Montreuil.
-        </div>
-
-
-        <div class="logo__footer">
-            <h2 class="h2__footer">FanTic</h2>
-        </div>
-
-        </footer>
+      <div class="footer__contact">
+        Contact : 27 Bis Rue du Progrès, 93100 Montreuil.
+      </div>
 
 
+      <div class="logo__footer">
+        <h2 class="h2__footer">FanTic</h2>
+      </div>
 
-        </section>
+    </footer>
+
+
+
+  </section>
 
 
 
 
 
 
-        <script src="js/script.js" type="text/javascript"></script>
-        <script src="js/banner.js" type="text/javascript"></script>
+  <script src="js/script.js" type="text/javascript"></script>
+  <script src="js/banner.js" type="text/javascript"></script>
 
 </body>
 
